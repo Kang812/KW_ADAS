@@ -8,7 +8,7 @@ pip install -r requirements.txt
 
 ## Result
 ```
-python 
+python inference.py
 ```
 
 ![Demo](./infer_result/20201125_0_0_00_0_0_1_front_0027701.png)
