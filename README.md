@@ -38,6 +38,23 @@ python yolo_train.py
 ```
 python ./pytorch-nested-unet/train.sh
 ```
+## model eval
+- detection
+```
+python yolo_eval.py
+```
+| Model                           |  mAP50  |Download |
+|:------------------------------- |:-------:|:-------:|
+| yolov8s                         |  0.852  |  0.086  |
+
+- segmentation
+```
+python ./pytorch-nested-unet/val.py --name lane_segmentation
+```
+
+| Model                           |   IoU   |  Loss   |
+|:------------------------------- |:-------:|:-------:|
+| U-Net++                         |  0.852  |  0.086  |
 
 ## Result
 ```
