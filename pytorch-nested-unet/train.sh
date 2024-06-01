@@ -1,0 +1,1 @@
+python train.py --dataset lane --arch NestedUNet --name lane_segmentation --epochs 300 --batch_size 6 --input_w 512 --input_h 256 --optimizer Adam --num_classes 2 --lr 0.00001
