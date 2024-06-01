@@ -43,18 +43,18 @@ python ./pytorch-nested-unet/train.sh
 ```
 python yolo_eval.py
 ```
-| Model                           |  mAP50  |Download |
-|:------------------------------- |:-------:|:-------:|
-| yolov8s                         |  0.852  |  0.086  |
+| Model                           |  mAP50  | Download |
+|:------------------------------- |:-------:|:-------: |
+| yolov8s                         |  0.852  |  [link]()   |
 
 - segmentation
 ```
 python ./pytorch-nested-unet/val.py --name lane_segmentation
 ```
 
-| Model                           |   IoU   |  Loss   |
-|:------------------------------- |:-------:|:-------:|
-| U-Net++                         |  0.852  |  0.086  |
+| Model                           |   IoU   |  Loss   | Download |
+|:------------------------------- |:-------:|:-------:|:-------:|
+| U-Net++                         |  0.852  |  0.086  | [link]()  |
 
 ## Result
 ```
