@@ -23,6 +23,10 @@ python ./utils/detection_dataset_split.py
 ```
 python ./utils/segmentation_map.py
 ```
+## yolo config file
+```
+python ./utils/detection_make_yolo_config.py
+```
 
 ## Result
 ```
