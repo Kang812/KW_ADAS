@@ -28,6 +28,17 @@ python ./utils/segmentation_map.py
 python ./utils/detection_make_yolo_config.py
 ```
 
+## model train
+- detection
+```
+python yolo_train.py
+```
+
+- segmentation
+```
+python ./pytorch-nested-unet/train.sh
+```
+
 ## Result
 ```
 python inference.py
