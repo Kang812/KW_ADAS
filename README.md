@@ -45,7 +45,7 @@ python yolo_eval.py
 ```
 | Model                           |  mAP50  | Download |
 |:------------------------------- |:-------:|:-------: |
-| yolov8s                         |  0.852  |  [link]()   |
+| yolov8s                         |  0.852  |  [link](https://drive.google.com/file/d/1liJKX23sBA9Yc9giOI0AELqHrUt2u4IE/view?usp=sharing)   |
 
 - segmentation
 ```
@@ -54,7 +54,7 @@ python ./pytorch-nested-unet/val.py --name lane_segmentation
 
 | Model                           |   IoU   |  Loss   | Download |
 |:------------------------------- |:-------:|:-------:|:-------:|
-| U-Net++                         |  0.852  |  0.086  | [link]()  |
+| U-Net++                         |  0.852  |  0.086  | [link](https://drive.google.com/file/d/1t1BCl6X3f7JM0YmZM_KWu6umWFPpwawJ/view?usp=sharing)  |
 
 ## Result
 ```
