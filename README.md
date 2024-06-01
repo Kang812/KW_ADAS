@@ -45,7 +45,7 @@ python yolo_eval.py
 ```
 | Model                           |  mAP50  | Download |
 |:------------------------------- |:-------:|:-------: |
-| yolov8s                         |  0.852  |  [link](https://drive.google.com/file/d/1liJKX23sBA9Yc9giOI0AELqHrUt2u4IE/view?usp=sharing)   |
+| yolov8s                         |  0.88   |  [link](https://drive.google.com/file/d/1liJKX23sBA9Yc9giOI0AELqHrUt2u4IE/view?usp=sharing)   |
 
 - segmentation
 ```
