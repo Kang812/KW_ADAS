@@ -1,0 +1,7 @@
+names:
+- car
+- pedestrian
+nc: 2
+test: /workspace/autonomous_driving/Part_1_Perception/9_ADAS/data/detection/test
+train: /workspace/autonomous_driving/Part_1_Perception/9_ADAS/data/detection/train
+val: /workspace/autonomous_driving/Part_1_Perception/9_ADAS/data/detection/val
