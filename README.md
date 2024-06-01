@@ -11,6 +11,19 @@ pip install -r requirements.txt
 
 -[detection](https://aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&dataSetSn=195)
 
+## 데이터 전처리
+- detection
+```
+python ./utils/detection_file_rename.py
+python ./utils/detection_json_to_yolo.py
+python ./utils/detection_dataset_split.py
+```
+
+- segmentation
+```
+python ./utils/segmentation_map.py
+```
+
 ## Result
 ```
 python inference.py
